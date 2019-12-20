@@ -2,7 +2,7 @@
 
 This is a prototype for the react frontend(FE) we might use for the PDB Tracker App.
 
-###Configuring the FE:
+### Configuring the FE:
 In ```src/app/config.js``` make sure it says:
 ```export const API_URL = 'http://localhost:9292'; ```
 
@@ -19,7 +19,7 @@ It expects the sinatra backend to be running on http://localhost:9292. It also r
   end
 ```
 
-###Running the FE:
+### Running the FE:
 ```npm start```
 Server will start on localhost://3000
 
