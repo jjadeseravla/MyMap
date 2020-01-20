@@ -3,24 +3,15 @@
 // src/App.js
 
 import React from "react";
-import NavBar from "./components/NavBar";
-import { useAuth0 } from "./react-auth0-spa";
-import Card from "./App/Card/Card";
-import Profile from "./Profile";
+import HookCounter from "./components/HookCounter";
+// import HookCounterThree from "./components/HookCounterThree";
+
 
 function App() {
-  const { loading } = useAuth0();
-
-  if ( loading ) {
-    return <div>Loading...</div>;
-  }
 
   return (
     <div className="App">
-      <header>
-        <NavBar />
-      </header>
-      <Card />
+   <HookCounter />
     </div>
   );
 }
